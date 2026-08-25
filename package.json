@@ -1,0 +1,21 @@
+{
+  "name": "harness-core",
+  "version": "1.0.0",
+  "description": "The Harness — agent development methodology, scripts, and docs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/jsonrpc.test.js test/session-log.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://beca.ghe.com/AI-Centre-of-Excellence/harness-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.76",
+    "@anthropic-ai/sdk": "^0.79.0"
+  },
+  "type": "module"
+}

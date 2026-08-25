@@ -1,0 +1,10 @@
+# Ephemeral run artifacts — never commit these
+project/runs/*
+!project/runs/.gitkeep
+
+# .NET build artifacts
+project/src/**/bin/
+project/src/**/obj/
+
+# Node
+node_modules/
